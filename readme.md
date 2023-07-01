@@ -16,6 +16,17 @@ A boilerplate project for creating React TypeScript npm packages with Rollup, ES
  - `npm run format`: Format the code using Prettier.
  - `npm start`: Start the development server with watch mode.
   
+## Development
+Step 1: Install the dependencies in root project and example project:
+```
+npm install
+```
+
+Step 2: Start the development server in both root and example project:
+```
+npm start
+```
+
 ## Using `npm  link` to Test Local Package
 ### Step 1:
 Create a symlink globally for your package:
